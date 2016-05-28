@@ -13,8 +13,8 @@ module.exports = ({types: t}) => {
         while (argNames.includes(char = String.fromCharCode(charCode))) charCode++
 
         path.replaceWith(t.arrowFunctionExpression(
-          [t.identifier(char)],
-          args.reduceRight((acc, arg) => t.callExpression(arg, [acc]), t.identifier(char))
+          [t.restElement(t.identifier(char))],
+          args.reduceRight((acc, arg) => t.callExpression(arg, [acc]), t.spreadElement(t.identifier(char)))
         ))
       }
     }
