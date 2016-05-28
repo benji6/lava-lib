@@ -1,0 +1,14 @@
+{
+  "name": "lavascript",
+  "version": "0.0.0",
+  "description": "compile-time JS library - functional interface, imperative performance",
+  "main": "",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Ben Hall",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.0"
+  }
+}
