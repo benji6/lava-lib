@@ -1,5 +1,5 @@
 {
-  "name": "lavascript",
+  "name": "lava-lib",
   "version": "0.0.1",
   "description": "compile-time JS library - functional interface, imperative performance",
   "main": "src/index.js",
