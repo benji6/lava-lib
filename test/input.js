@@ -1,4 +1,4 @@
 forEach(sideEffect, list)
 
-compose(f, g)
-compose(f, g, h, i, a)
+compV(f, g)
+comp(f, g, h, i, a)

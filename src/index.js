@@ -1,1 +1,6 @@
-module.exports = require('./plugins/compose')
+module.exports = {
+  plugins: [
+    require('./plugins/comp'),
+    require('./plugins/compV'),
+  ]
+};

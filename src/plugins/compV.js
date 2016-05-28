@@ -4,7 +4,7 @@ module.exports = ({types: t}) => {
   return {
     visitor: {
       CallExpression (path) {
-        if (path.node.callee.name !== 'compose') return
+        if (path.node.callee.name !== 'compV') return
         const args = path.node.arguments
         const argNames = args.map(x => x.name)
 
