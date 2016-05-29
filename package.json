@@ -4,11 +4,13 @@
   "description": "compile-time JS library - functional interface, imperative performance",
   "main": "src/index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "watch-test": "nodemon -x 'npm t'"
   },
   "author": "Ben Hall",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.9.0"
+    "babel-core": "^6.9.0",
+    "tape": "^4.5.1"
   }
 }
