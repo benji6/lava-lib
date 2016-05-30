@@ -5,5 +5,7 @@ module.exports = {
     require('./plugins/compV'),
     require('./plugins/I'),
     require('./plugins/K'),
+    require('./plugins/pred'),
+    require('./plugins/succ'),
   ]
 };
